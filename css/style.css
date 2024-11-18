@@ -1,0 +1,77 @@
+/* Commont settings to start work */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+    box-sizing: inherit;
+ }
+ 
+ body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+ }
+ 
+ button,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+    padding: 0;
+    margin: 0;
+ }
+ /* Coding common values and fonts */
+:root{
+    --main__purple:#6157AB;
+}
+.common__container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* Coding styles for header  */
+.header{
+    max-height: 84px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header__container{
+    display: flex;
+    justify-content: end;
+}
+.header__ul{
+    display: flex;
+}
+.header__ul li{
+    margin-right: 68px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header__ul li a{
+    text-decoration: none;
+    color: #636769;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+}
+.common__button-all{
+    width: 158px;
+    height: 54px;
+    border-radius: 10px;
+    background: #6157AB;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.common__button-all:hover{
+    cursor: pointer;
+
+}
+/* Coding styles for header  */
