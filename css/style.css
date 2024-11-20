@@ -86,6 +86,7 @@ html {
     background-image: url(../images/main__background.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 50px;
 } 
 .house__title{
     color: #363B3D;
@@ -135,3 +136,216 @@ html {
     align-items: center;
 }
 /* Coding styles for the main 1 */
+
+/* Coding styles for power section */
+
+.power{
+    background: #F5F4F2;
+}
+.power__container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.power__title{
+    color: #333;
+    font-size: 52px;
+    line-height: 64.8px; /* 124.615% */
+    letter-spacing: 0.675px;
+    text-align: center;
+    padding-top: 72px;
+    margin-bottom: 47px;
+}
+.power__buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.power__agents{
+    width: 214px;
+    height: 60px;
+    color: #6157AB;
+    font-size: 16px;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 2.32px;
+    cursor: pointer;
+    border-radius: 6.8px;
+    border: 1px solid #6157AB;
+    background: #ECEAF8;
+}
+.power__agents:hover{
+    color: #7A858A;
+    border: 1px solid #7A858A;
+    background: white;
+    transition: .3s;
+}
+.power__buyers, .power__listing, .power__sellers, .power__loans{
+    color: #7A858A;
+    font-size: 16px;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 6.8px;
+    border: 1px solid #AAB8BF;
+    background: #FFF;
+}
+.power__buyers:hover, .power__listing:hover, .power__sellers:hover, .power__loans:hover{
+    color: #6157AB;
+    border: 1px solid #6157AB;
+    background: #ECEAF8;
+    transition: .3s;
+    cursor: pointer;
+}
+.couple__container{
+    background-color: white;
+    padding: 75px;
+    border-radius: 19px 19px 0px 0px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.card__line{
+    width: 381px;
+    height: 1px;
+    background: #C9D3D9;
+    margin-bottom: 33px;
+}
+.card__link{
+    color: #574D9C;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    letter-spacing: 2.32px;
+    text-decoration: none;
+}
+.card__title{
+    margin-top: 97px;
+    color: #363B3D;
+    font-size: 40px;
+    line-height: 52px; /* 130% */
+    max-width: 367px;
+    margin-bottom: 32px;
+}
+.card__text{
+    color: #636769;
+    font-size: 21px;
+    line-height: 30px; /* 142.857% */
+    max-width: 387px;
+    margin-bottom: 30px;
+
+}
+.card__button{
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+    width: 223px;
+    height: 54px;
+    border-radius: 5px;
+    background: #6157AB;
+    cursor: pointer;
+}
+.card__line2{
+    background: #C9D3D9;
+    width: 932px;
+    height: 1px;
+    margin: 85px auto 65px auto;
+}
+.card__icons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.icon__1 img, .icon__2 img, .icon__3 img{
+    background-color: #574D9C;
+    cursor: pointer;
+}
+.icon__1 img{
+    padding: 18px 25px;
+}
+.icon__2 img{
+    padding: 17px 19px;
+}
+.icon__3 img{
+    padding: 14px 17px;
+}
+.card__icon-text{
+    color: #6157AB;
+    font-size: 14px;
+    line-height: 18.9px; /* 135% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    max-width: 210px;
+    margin-top: 25px;
+}
+.company__container{
+    padding: 75px;
+    background: #E3E6F9;
+}
+.company__title{
+    color: #323A5B;
+    text-align: center;
+    font-size: 51px;
+    line-height: 64.8px; /* 127.059% */
+    letter-spacing: 0.675px;
+    margin-bottom: 67px;
+}
+.company__content{
+    display: flex;
+    justify-content: space-between;
+}
+.content__text{
+    color: #1E2224;
+    text-align: center;
+    font-size: 26px;
+    line-height: 42px; /* 161.538% */
+    letter-spacing: 0.005px;
+    max-width: 460px;
+}
+.content__info{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.content__info img{
+    margin-right: 15px;
+}
+.info__name{
+    color: #636769;
+    font-size: 11px;
+    line-height: 16.5px; /* 150% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.position{
+    color: #636769;
+    font-size: 20px;
+    line-height: 30px; /* 150% */
+}
+.content__line{
+    width: 439px;
+    height: 1px;
+    background: #C9C9C9;
+    margin-bottom: 44px;
+}
+.content__text-2{
+    color: #363B3D;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+    max-width: 425px;
+    margin-bottom: 30px;
+}
+.company__content-info button{
+    margin-left: 140px;
+    margin-bottom: 70px;
+}
+.company__main-line{
+    width: 958px;
+    height: 1px;
+    background: #B2A9EF;
+    margin: 0 auto;
+}
+/* Coding styles for power section */
